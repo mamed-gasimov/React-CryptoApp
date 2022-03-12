@@ -1,13 +1,21 @@
 import { FC } from "react";
-// import { Switch, Route, Link } from 'react-router-dom';
-// import { Layout, Typography, Space } from 'antd';
+// import { Link } from 'react-router-dom';
+import { Layout, Typography, Space } from 'antd';
 import { Navbar } from "./components";
+import MainRouter from "./router/MainRouter";
+import './globals.css';
 
 const App: FC = () => {
   return (
-    <div className="app">
+    <div className='app'>
       <Navbar />
-      <main></main>
+      <main>
+        <Layout>
+          <div className='routes'>
+            <MainRouter />
+          </div>
+        </Layout>
+      </main>
       <footer></footer>
     </div>
   );

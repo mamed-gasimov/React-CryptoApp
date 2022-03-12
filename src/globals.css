@@ -11,3 +11,20 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
+a:hover {
+    color: var(--pink) !important;
+}
+.app {
+    display: flex;
+    overflow: hidden;
+}
+.routes {
+    padding: 20px;
+}
+
+@media screen and (max-width:800px) {
+    .app{
+        flex-direction: column;
+        overflow: hidden;
+    }
+}
