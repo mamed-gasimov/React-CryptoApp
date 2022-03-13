@@ -5,6 +5,7 @@ import millify from 'millify';
 import { useGetCryptosQuery } from '../../services/cryptoApi';
 import { StatsType } from '../../types/StatsTypes';
 import { CryptocurrenciesPage, NewsPage } from '../';
+import { Loader } from '../../components';
 import styles from './HomePage.module.css';
 
 const HomePage: FC = () => {
@@ -12,7 +13,7 @@ const HomePage: FC = () => {
     const { data, isFetching } = useGetCryptosQuery(10);
     const globalStats = data?.data?.stats as StatsType;
 
-    if (isFetching) return <p>Loading...</p>;
+    if (isFetching) return <Loader />;
 
     return (
         <>

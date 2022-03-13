@@ -42,6 +42,12 @@ a:hover {
     }
     main {
         flex: 1;
-        margin: 90px 10px 0 0;
+        margin-right: 10px;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:530px) {
+    main {
+        margin-top: 55%;
     }
 }

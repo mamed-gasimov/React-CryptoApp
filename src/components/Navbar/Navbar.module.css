@@ -24,13 +24,13 @@ nav {
    color: white;
 }
 .menu-control-container {
-    display: none !important;
-    position: absolute !important;
-    right: 10px !important;
-    top: 25px !important;
-    font-size: 1.2rem !important;
-    background-color: var(--bgSecondary) !important;
-    border: none !important;
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    font-size: 1.2rem;
+    background-color: var(--bgSecondary);
+    border: none;
 }
 
 @media screen and (max-width:800px) {
@@ -45,6 +45,6 @@ nav {
         background-color: var(--bgSecondary);
     }
     .menu-control-container {
-        display: block !important;
+        display: block;
     }
 }

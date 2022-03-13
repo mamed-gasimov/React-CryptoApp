@@ -31,14 +31,14 @@ const CryptocurrenciesPage: FC<Props> = ({ simplified }) => {
     return (
         <>
             {!simplified && (
-                <div className="search-crypto">
+                <div className={styles['search-crypto']}>
                     <Input
                         placeholder="Search Cryptocurrency"
                         onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
                     />
                 </div>
             )}
-            <Row className={styles['crypto-card-container']}>
+            <Row gutter={[32, 32]} className={styles['crypto-card-container']}>
                 {cryptos?.map((currency) => (
                     <Col
                         xs={24}
