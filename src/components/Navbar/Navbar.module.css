@@ -13,15 +13,23 @@ nav {
 .logo-container {
     background-color: #001529;
     display: flex;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
 }
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
 .logo {
-    margin:0 0 0 15px;
+    margin: 0 0 0 15px;
 }
 .logo a {
    color: white;
+}
+.hamburger-wrapper {
+    margin-bottom: 20px;
 }
 .menu-control-container {
     display: none;
@@ -32,7 +40,6 @@ nav {
     background-color: var(--bgSecondary);
     border: none;
 }
-
 @media screen and (max-width:800px) {
     nav {
         flex: 1;

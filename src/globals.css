@@ -25,13 +25,13 @@ a:hover {
 .routes {
     padding: 20px;
 }
-@media screen and (max-width:1300px) {
-    main {
+@media screen and (max-width:1185px) {
+    .routes {
         margin-left: 50px;
     }
 }
 @media screen and (max-width:1000px) {
-    main {
+    .routes {
         margin-left: 100px;
     }
 }
@@ -43,11 +43,9 @@ a:hover {
     main {
         flex: 1;
         margin-right: 10px;
-        margin-left: 0;
     }
-}
-@media screen and (max-width:530px) {
-    main {
-        margin-top: 55%;
+    .routes {
+        margin-top: 20%;
+        margin-left: 0;
     }
 }

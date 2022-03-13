@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { Link } from 'react-router-dom';
-import { Space, Typography } from 'antd';
+import { Typography } from 'antd';
 import styles from './Footer.module.css';
 
 const Footer: FC = () => {
@@ -11,11 +11,6 @@ const Footer: FC = () => {
                     CryptoApp
                 </Link>
             </Typography.Title>
-            <Space>
-                <Link to="/">Home</Link>
-                <Link to="/exchanges">Exchanges</Link>
-                <Link to="/news">News</Link>
-            </Space>
         </footer>
     )
 }
