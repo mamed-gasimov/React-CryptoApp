@@ -1,7 +1,6 @@
 import { FC } from "react";
-// import { Link } from 'react-router-dom';
-import { Layout, Typography, Space } from 'antd';
-import { Navbar } from "./components";
+import { Layout } from 'antd';
+import { Footer, Navbar } from "./components";
 import MainRouter from "./router/MainRouter";
 import './globals.css';
 
@@ -15,8 +14,8 @@ const App: FC = () => {
             <MainRouter />
           </div>
         </Layout>
+        <Footer />
       </main>
-      <footer></footer>
     </div>
   );
 }
