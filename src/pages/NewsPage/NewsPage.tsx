@@ -1,6 +1,10 @@
 import { FC } from 'react'
 
-const NewsPage: FC = () => {
+interface Props {
+    simplified?: boolean;
+}
+
+const NewsPage: FC<Props> = ({ simplified }) => {
     return (
         <div>NewsPage</div>
     )
