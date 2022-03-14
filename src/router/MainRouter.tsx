@@ -3,7 +3,6 @@ import { Route, Switch } from 'react-router-dom';
 import {
     CryptocurrenciesPage,
     CryptoDetailsPage,
-    ExchangesPage,
     HomePage,
     NewsPage,
 } from '../pages';
@@ -13,9 +12,6 @@ const MainRouter: FC = () => {
         <Switch>
             <Route exact path="/">
                 <HomePage />
-            </Route>
-            <Route exact path="/exchanges">
-                <ExchangesPage />
             </Route>
             <Route exact path="/cryptocurrencies">
                 <CryptocurrenciesPage />
