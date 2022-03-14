@@ -5,18 +5,18 @@
     color: #0071bd;
 }
 .chart-title {
-    color: #0071bd !important;
+    color: #0071bd;
 }
 .price-container {
-    display: flex !important;
-    gap: 20px !important;
-    align-items: center !important;
-    flex-wrap: wrap !important;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .price-change {
-    font-weight: 900 !important;
+    font-weight: 900;
 }
 .current-price{
-    margin-top: 0px !important;
-    font-weight: 900 !important;
+    margin-top: 0px;
+    font-weight: 900;
 }

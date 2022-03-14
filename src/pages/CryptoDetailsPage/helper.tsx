@@ -12,6 +12,12 @@ import {
 import millify from 'millify';
 import { CoinDetailedType } from "../../types/CoinTypes";
 
+export interface CoinStatsArrayType {
+  title: string;
+  value: string | number | JSX.Element;
+  icon: JSX.Element;
+}
+
 export const getStats = (cryptoDetails: CoinDetailedType) => {
   const stats = [
     {

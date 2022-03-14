@@ -7,8 +7,9 @@ import {
     FundOutlined,
     MenuOutlined,
 } from '@ant-design/icons';
-import styles from './Navbar.module.css';
 import icon from '../../assets/images/cryptocurrency.png';
+import { colors } from '../../utils/colors';
+import styles from './Navbar.module.css';
 
 const Navbar: FC = () => {
     const [activeMenu, setActiveMenu] = useState<boolean>();
@@ -49,7 +50,7 @@ const Navbar: FC = () => {
                         {hamburgerIsVisible &&
                             <Button className={styles['menu-control-container']}
                                 onClick={() => setActiveMenu(prev => !prev)}
-                                style={{ marginBottom: 15 }}
+                                style={{ marginBottom: 15, backgroundColor: colors.white }}
                             >
                                 <MenuOutlined />
                             </Button>

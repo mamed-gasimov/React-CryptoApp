@@ -6,14 +6,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-bottom: 1px solid var(--border);
+    border-bottom: 1px solid #d9d9d9;
     padding-top: 20px;
     padding-bottom: 20px;
     gap: 10px;
 }
 .coin-heading-container .coin-name {
     font-weight: 900;
-    color: var(--pink);
 }
 .coin-heading-container p {
     font-size: 1rem;
@@ -21,8 +20,8 @@
     margin-bottom: 20px;
 }
 .select-timeperiod {
-    width: 200px !important;
-    margin-top: 20px !important;
+    width: 200px;
+    margin-top: 20px;
 }
 .stats-container {
     display: flex;
@@ -34,36 +33,10 @@
     font-weight: 700;
     font-size: 1.4rem;
     margin-top: 20px;
-    color: var(--pink);
+    color: #0071bd;
 }
-.coin-value-statistics-heading p {
-    font-size: 1rem;
-    opacity: 0.9;
-}
-.coin-details-heading {
-    font-weight: 700 !important;
-    margin-top: 20px !important;
-    color: var(--pink) !important;
-}
-.coin-stats {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid var(--border);
-    font-size: 1rem;
-    opacity: 0.9;
-    padding: 20px;
-}
-.coin-stats-name {
-    display: flex;
-    gap: 10px;
-    font-size: 1rem;
-}
-.coin-link:hover, 
-.coin-stats:hover {
-    background-color: var(--bgSecondary);
-}
-.stats{
-    font-weight: 800;
+.coin-link:hover {
+    background-color: #fff;
 }
 .coin-desc-link {
     display: flex;
@@ -73,17 +46,18 @@
 }
 .coin-desc-link h2 {
     font-weight: 700;
-    color: var(--pink);
+    color: #0071bd;
 }
 .coin-desc-link p {
     font-size: 1rem;
     opacity: 0.9;
 }
 .coin-desc-link a {
-    color: var(--pink);
+    color: #0071bd;
 }
 .coin-desc-link h3 {
     font-weight: 700;
+    color: #0071bd;
 }
 .coin-desc {
     flex: 0.5;
@@ -96,7 +70,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 1px solid var(--border);
+      border-bottom: 1px solid #d9d9d9;
       padding: 20px;
   }
   .link-name {
@@ -104,7 +78,7 @@
       font-size: 1rem;
   }
   .coin-link a {
-      color: var(--pink);
+      color: #0071bd;
       font-weight: 700;
       font-size: 1rem;
   }

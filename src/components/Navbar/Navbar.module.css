@@ -37,7 +37,6 @@ nav {
     right: 10px;
     top: 25px;
     font-size: 1.2rem;
-    background-color: var(--bgSecondary);
     border: none;
 }
 @media screen and (max-width:800px) {
@@ -49,7 +48,7 @@ nav {
         position:fixed;
         width: 100%;
         z-index: 100;
-        background-color: var(--bgSecondary);
+        background-color: #fff;
     }
     .menu-control-container {
         display: block;
